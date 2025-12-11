@@ -220,10 +220,9 @@ public class WeaponShooter : MonoBehaviour
 
     void SetWeaponActive(WeaponMode mode)
     {
-        var isMelee = (mode == WeaponMode.Melee);
         AK47.SetActive(mode == WeaponMode.AK47);
         Shotgun.SetActive(mode == WeaponMode.Shotgun);
-        arms.SetActive(isMelee);
+        arms.SetActive(mode == WeaponMode.Melee);
     }
 
     private static void RotateWeapon(GameObject weapon, Transform firePoint)
