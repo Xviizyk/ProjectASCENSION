@@ -1,0 +1,29 @@
+# Общие временные папки
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools/
+/Assets/AddressableAssetsData/StreamingAssetsCopy/
+/Logs/
+/MemoryCaptures/
+/PlayerData/
+
+# Игнорировать файлы Mac/OS X
+.DS_Store
+.vscode/
+
+# Игнорировать временные файлы IDE (Visual Studio, Rider)
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+
+# Игнорировать Git LFS (если не используется)
+*.psd
+*.wav
+*.mp3
+*.mov
